@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offerta Speciale</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif; /* Font di base */
+            background-color: #f9f9f9; /* Colore di sfondo chiaro */
+            color: #333; /* Colore del testo */
+            text-align: center; /* Allineamento centrale */
+            margin: 0; /* Rimuove i margini */
+            padding: 20px; /* Padding per il corpo */
+        }
+
+        .highlight {
+            background-color: black; /* Sfondo nero */
+            color: green; /* Testo verde */
+            padding: 15px; /* Padding per la frase */
+            border-radius: 5px; /* Angoli arrotondati */
+            display: inline-block; /* Per centrare la frase */
+            margin-bottom: 10px; /* Margine inferiore */
+            font-size: 2.5em; /* Dimensione del font */
+        }
+
+        .banner-container {
+            background-color: black; /* Sfondo nero che racchiude la frase e la bandiera */
+            padding-bottom: 10px; /* Padding inferiore per separare la bandiera dalla frase */
+        }
+
+        .bandiera {
+            height: 5px; /* Altezza della striscia */
+            background: linear-gradient(to right, #008C45 33.33%, #FFFFFF 33.33%, #FFFFFF 66.67%, #CD212A 66.67%, #CD212A 100%); /* Bandiera italiana */
+            margin: 0; /* Rimuove margini */
+        }
+
+        img {
+            width: 30%; /* Larghezza delle immagini */
+            margin: 20px; /* Margine tra le immagini */
+            border-radius: 10px; /* Angoli arrotondati */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Ombra per effetto 3D */
+            transition: transform 0.3s; /* Transizione per effetto hover */
+        }
+
+        img:hover {
+            transform: scale(1.05); /* Effetto ingrandimento al passaggio del mouse */
+        }
+
+        p {
+            font-size: 1.2em; /* Dimensione del testo */
+            margin: 20px 0; /* Margine sopra e sotto il paragrafo */
+            background-color: #ecf0f1; /* Colore di sfondo del paragrafo */
+            padding: 15px; /* Padding interno */
+            border-radius: 8px; /* Angoli arrotondati */
+        }
+
+        a {
+            text-decoration: none; /* Rimuove la sottolineatura */
+            font-weight: bold; /* Grassetto per il testo */
+            background-color: #27ae60; /* Colore di sfondo del pulsante */
+            color: white; /* Colore del testo */
+            padding: 12px 24px; /* Padding interno */
+            border-radius: 5px; /* Angoli arrotondati */
+            transition: background-color 0.3s; /* Transizione per effetto hover */
+        }
+
+        a:hover {
+            background-color: #219150; /* Colore di sfondo quando il mouse passa sopra */
+        }
+
+        footer {
+            margin-top: 30px; /* Margine superiore */
+            font-size: 0.9em; /* Dimensione del testo */
+            color: #7f8c8d; /* Colore del testo del footer */
+        }
+    </style>
+</head>
+<body>
+    <!-- Contenitore che racchiude la frase e la bandiera -->
+    <div class="banner-container">
+        <div class="highlight">Ciao King, sono Nico...il tuo Calisthenico di fiducia</div>
+        <div class="bandiera"></div> <!-- Striscia della bandiera italiana -->
+    </div>
+
+    <!-- Immagini con link URL specificati -->
+    <img src="logo_zec.jpg" alt="Immagine 1">
+    <img src="logo_Nico.jpeg" alt="Immagine 2">
+
+    <!-- Testo con codice sconto -->
+    <p>Che aspetti? Vai su Zec e usa il mio codice sconto: <strong>NICO10</strong></p>
+
+    <!-- Rimando al sito -->
+    <a href="https://www.zecplus.it">Vai al sito</a>
+
+    <footer>
+        &copy; 2024 Nico | Tutti i diritti riservati
+    </footer>
+</body>
+</html>
